@@ -2,8 +2,6 @@ import React, { useContext, useState } from 'react';
 import {ModalContext} from '../context/ModalContext';
 import Modal from '@material-ui/core/Modal'
 import { makeStyles }  from '@material-ui/core/styles' ;
-import { light } from '@material-ui/core/styles/createPalette';
-
 
 function getModalStyle() {
     const top = 50;
@@ -104,6 +102,7 @@ const Receta = ({receta}) => {
                             <img 
                                 className='img-fluid my-4' 
                                 src={informacion.strDrinkThumb}
+                                alt="img"
                             />
                             <h3>Ingrediente y Cantidades</h3>
                             <ul>

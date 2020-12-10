@@ -68,7 +68,7 @@ const Formulario = () => {
                 <div className="col-md-4">
                     <input
                         type='submit'
-                        className='btn btn-primary btn-block'
+                        className='btn btn-outline btn-primary btn-block'
                         value='Buscar Bebidas'
                     />
                 </div>
